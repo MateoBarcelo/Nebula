@@ -1,0 +1,424 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  requiredmods = create,quark
+  custom_menu_title = Menu
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = true
+  name = menucreatia
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\images\board_button.png
+  backgroundnormal = resources\images\board_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = §6Multiplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 0.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 53
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  seconds = 0.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = 79
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 99
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\images\board_button.png
+  backgroundnormal = resources\images\board_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label = §6Options...
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 0.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -50
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\images\board_button.png
+  backgroundnormal = resources\images\board_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = §cQuit Game
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 0.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -73
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 0.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\images\board_button.png
+  backgroundnormal = resources\images\board_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = §6Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 0.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\images\board_button.png
+  backgroundnormal = resources\images\board_button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = sethoverlabel
+  label = §6Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 0.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = 54
+  action = movebutton
+  y = 30
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = dbd53844-d66e-4e62-a727-1c6799eb3c2c1658167824962
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 9daab561-5870-4a68-afe7-e3d56c1251971658167824967
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = a7dddd38-2007-49f3-a690-c62e0f0c65c21658167824967
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = e928147a-bc00-4dce-b68e-b930d6de7d591658167824967
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 303d746a-e0fe-461d-ad66-8dd90db06ce71658167824968
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  hidden = true
+  delayappearanceseconds = 5.0
+  splash_rotation = -10
+  splash_color = #ffff00
+  fadein = true
+  fadeinspeed = 2.0
+  x = 140
+  width = 60
+  action = deep_customization_element:title_screen_splash
+  actionid = 8ff66dc1-affb-41b6-bc39-e9c5194b213d1658167824968
+  y = 113
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 0.0
+  buttonaction = joinserver
+  backgroundhovered = resources\images\board_button.png
+  label = Jugar Creatia 2
+  loopbackgroundanimations = true
+  hoverlabel = &6Jugar Creatia 2
+  fadein = true
+  fadeinspeed = 2.0
+  x = -100
+  width = 201
+  actionid = 55c8e126-57be-4f59-99c1-6bbe301ad6fe1658168124781
+  action = addbutton
+  y = -41
+  delayappearance = true
+  backgroundnormal = resources\images\board_button.png
+  value = machine1.etheryal.net:63535
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  delayappearanceseconds = 0.0
+  scale = 1.0
+  source = Minecraft 1.18.2\n&3Creatia 2 Client\n&7%realtimeday%/%realtimemonth%/%realtimeyear%
+  text_border = 0
+  case_mode = normal
+  fadein = true
+  source_mode = direct
+  line_spacing = 1
+  fadeinspeed = 2.0
+  x = 2
+  width = 91
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 259e86b4-584e-4cdf-b006-76a777d823091661962077209
+  y = -31
+  delayappearance = true
+  alignment = left
+  delayappearanceeverytime = false
+  height = 34
+}
+
+customization {
+  orientation = top-left
+  basecolor = #f24446
+  shadow = true
+  rotation = 0.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_day = true
+  vanilla-like = false
+  vr_custom:showif:fancymenu_visibility_requirement_is_realtime_month = true
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_month = 10
+  x = 426
+  actionid = 51d5ca68-0ea7-4ae5-8bc3-3aa22e2a4de81661967997727
+  action = addsplash
+  y = 105
+  vr_custom:value:fancymenu_visibility_requirement_is_realtime_day = 31
+  text = Spooky Halloween!
+}
+
